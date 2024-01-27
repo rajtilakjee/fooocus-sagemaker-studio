@@ -26,15 +26,15 @@ Fooocus has simplified the installation. Between pressing "download" and generat
 
 So far the official implementation of Fooocus has been done on local systems and Google Colab. AWS SageMaker Studio Lab is another alternative to Google Colab, it even has its own official notebook to create text2image content using Stable Diffussion. Here's how you can run Fooocus on AWS SageMaker Studio Lab:
 
-- Request for a free SageMaker account from the following link: https://studiolab.sagemaker.aws/
-- Once your request has been approved, create a new account using the link they have sent in their email
-- Log in to your account
-- Once logged in, create a new runtime with a GPU from My Projects and then click Open Project
-- Add this repository once the Jupyter Lab opens: https://github.com/rajtilakjee/fooocus-sagemaker-studio.git
-- Open a terminal on SageMaker and run the following command: `sh start.sh`
-- On a new browser tab, register for a free account on ngrok and copy the Authtoken: https://ngrok.com/
-- Paste the Authtoken in the SageMaker terminal when asked
-- Now copy the domain from ngrok and enter in the SageMaker terminal
-- Once you get the message on the terminal that the app was started, paste this same domain in a new browser tab and start using Fooocus!
+1. Request for a free SageMaker account from the following link: https://studiolab.sagemaker.aws/
+2. Once your request has been approved, create a new account using the link they have sent in their email
+3. Log in to your account
+4. Once logged in, create a new runtime with a GPU from My Projects and then click Open Project
+5. Add this repository once the Jupyter Lab opens: https://github.com/rajtilakjee/fooocus-sagemaker-studio.git
+6. Open a terminal on SageMaker and run the following command: `sh start.sh`
+7. On a new browser tab, register for a free account on ngrok and copy the Authtoken: https://ngrok.com/
+8. Paste the Authtoken in the SageMaker terminal when asked
+9. Now copy the domain from ngrok and enter in the SageMaker terminal
+10. Once you get the message on the terminal that the app was started, paste this same domain in a new browser tab and start using Fooocus!
 
 If you find this tutorial and repo helpful do give it a star. If you can, do donate through GitHub so that I can work on the other projects here. Thank you!
